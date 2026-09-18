@@ -1,0 +1,137 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin: 0;
+    color: rgb(82, 2, 136);
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   
+  
+
+}
+
+.card{
+    border:3px solid rgb(141, 31, 214);
+    display: flex;
+    background-color: rgb(109, 5, 158);
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    gap: 30px;
+    border-radius:30px;
+    padding:10px;
+    flex-direction: column;
+   
+   
+   
+   
+}
+.card span{
+    color: white;
+    font-family: verdana;
+    display:flex;
+    justify-content: space-evenly;
+   flex-direction: row;
+   align-items: flex-start;
+   width:20px;
+   height:20px;
+
+
+}
+.card img{ 
+   width: 150px;
+   height: 120px;
+   margin: 0 auto;
+   border-radius: 10px;
+   
+}
+
+.pop{ 
+    display: flex; 
+gap: 20px;
+}
+ .rock{ 
+    display: flex; 
+gap: 20px;
+}
+.rap{ 
+    display: flex;
+    gap: 20px;
+}
+.aba{ 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+
+}
+.stilespop{
+     border: 2px solid rgb(136, 34, 204);
+    width:50px;
+    height: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    background-color: rgb(121, 6, 167);
+    color: white;
+    
+}
+.stilesrock{ 
+    border: 2px solid rgb(136, 34, 204);
+    width:50px;
+    height: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    background-color: rgb(96, 5, 156);
+    color: white;
+}
+.stilesrap{ 
+     border: 2px solid rgb(136, 34, 204);
+    width:50px;
+    height: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    background-color: rgb(96, 5, 156);
+    color: white;
+   
+}
+.icons{
+    border: 1px solid purple;
+    width: 200px;
+    border-radius: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input{
+    border: 1px solid purple;
+    border-radius: 10px;
+    width: 300px;
+    height:20px;
+}
+
+   
+
+.logo{
+    width: 30px;
+    background-color: white;
+    height:30px
+}
+.card:hover{
+  scale: 1.01;
+
+}
